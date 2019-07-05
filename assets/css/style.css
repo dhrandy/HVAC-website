@@ -1,195 +1,195 @@
-/* Jumbotron */
-
-.jumbotron {
-    background-image: url("../imgs/home.jpg");
-    background-position: center center;
-    height: 75vh;
-    margin-bottom: 0px;
-    position: relative;
-    background-size: cover;
-    /* background-attachment: fixed; */
-    color: white;
-    padding-top: 15px;
-}
-
-
-/* title */
-
-#hartz {
-    font-size: 2em;
-    /* margin-bottom: 0; */
-    line-height: 0.5;
-}
-
-#heating-and-cooling {
-    font-size: 1.2rem;
-    /* margin-top: 0; */
-}
-
-
-/* Navbar */
-
-.bg-light {
-    background-color: #82ff82 !important;
-}
-
-.navbar-brand {
-    font-family: 'Racing Sans One', cursive;
-    font-size: 30px;
-}
-
-.navbar {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.fixed-top {
-    position: relative;
-}
-
-p {
-    margin: 10px 50px;
-}
-
-ul {
-    margin: 10px 50px;
-}
-
-.display-4 {
-    font-weight: bold;
-}
-
-.lead {
-    font-weight: 600;
-}
-
-#font1 {
-    font-weight: 600;
-    font-size: 3rem;
-    text-align: center;
-    font-family: 'Kanit', sans-serif;
-}
-
-#font2 {
-    font-weight: 600;
-    font-size: 2rem;
-    text-align: center;
-}
-
-.col-md {
-    text-align: center;
-}
-
-.icons {
-    width: 180px;
-}
-
-.container {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-
-/* Bold for the icons info */
-
-.bold {
-    font-weight: bold;
-    margin-top: 15px;
-}
-
-.companies {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    height: auto;
-}
-
-hr {
-    background-color: #82ff82;
-    height: 1px;
-    width: 30%;
-    margin-top: 10px;
-}
-
-.divider {
-    background-color: #82ff82;
-    height: 10px;
-}
-
-.center {
-    text-align: center;
-}
-
-
-/* Ratings */
-
-.checked {
-    color: orange;
-}
-
-.fa {
-    font-size: 60px !important;
-}
-
-.rating {
-    font-size: 50px;
-    font-weight: 600;
-    font-family: 'Kanit', sans-serif;
-}
-
-
-/* Facebook Icon */
-
-.fa-facebook-square {
-    font-size: 27px;
-}
-
-
-/* Footer */
-
-footer {
-    margin-top: 20px;
-    padding-top: 25px;
-    width: 100%;
-    height: 80px;
-    background-color: #5acf5a;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-@media only screen and (max-width: 768px) {
-    .icons {
-        width: 150px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    /* For mobile phones: */
-    .companies {
-        width: 100%;
-        height: auto;
+    /* Jumbotron */
+    
+    .jumbotron {
+        background-image: url("../imgs/home.jpg");
+        background-position: center center;
+        height: 75vh;
+        margin-bottom: 0px;
+        position: relative;
+        background-size: cover;
+        color: white;
+        padding-top: 15px;
     }
     /* title */
+    
     #hartz {
-        font-size: 40px;
-        /* margin-bottom: 0; */
+        font-size: 2em;
         line-height: 0.5;
     }
+    
     #heating-and-cooling {
-        font-size: 20px;
-        /* margin-top: 0; */
+        font-size: 1.2rem;
     }
-    img.icons {
-        width: 115px;
-        margin-top: 15px;
+    /* Navbar */
+    
+    .bg-light {
+        background-color: #82ff82 !important;
     }
-    .jumbotron {
-        background-position: top center;
+    
+    .navbar-brand {
+        font-family: 'Racing Sans One', cursive;
+        font-size: 30px;
+    }
+    
+    .navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .fixed-top {
         position: relative;
     }
+    
     p {
-        margin: 10px 15px;
+        margin: 10px 50px;
     }
-}
+    
+    ul {
+        margin: 10px 50px;
+    }
+    
+    .display-4 {
+        font-weight: bold;
+    }
+    
+    .lead {
+        font-weight: 600;
+    }
+    
+    #font1 {
+        font-weight: 600;
+        font-size: 3rem;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+    }
+    
+    #font2 {
+        font-weight: 600;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .col-md {
+        text-align: center;
+    }
+    
+    .icons {
+        width: 180px;
+    }
+    
+    .container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    /* Bold for the icons info */
+    
+    .bold {
+        font-weight: bold;
+        margin-top: 15px;
+    }
+    
+    .companies {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: auto;
+    }
+    
+    hr {
+        background-color: #82ff82;
+        height: 1px;
+        width: 30%;
+        margin-top: 10px;
+    }
+    
+    .divider {
+        background-color: #82ff82;
+        height: 10px;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    /* Ratings */
+    
+    .checked {
+        color: orange;
+    }
+    
+    .fa {
+        font-size: 60px !important;
+    }
+    
+    .rating {
+        font-size: 50px;
+        font-weight: 600;
+        font-family: 'Kanit', sans-serif;
+    }
+    /* Facebook Icon */
+    
+    .fa-facebook-square {
+        font-size: 27px;
+    }
+    /* Footer */
+    
+    footer {
+        margin-top: 20px;
+        padding-top: 25px;
+        width: 100%;
+        height: 80px;
+        background-color: #5acf5a;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        /* for Ipad and Ipad mini */
+        .icons {
+            width: 150px;
+        }
+        #font1 {
+            line-height: 47px;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        /* For mobile phones: */
+        .companies {
+            width: 100%;
+        }
+        /* title */
+        #hartz {
+            font-size: 40px;
+            line-height: 0.5;
+        }
+        #heating-and-cooling {
+            font-size: 20px;
+        }
+        img.icons {
+            width: 115px;
+            margin-top: 15px;
+        }
+        .jumbotron {
+            background-position: top center;
+            position: relative;
+        }
+        p {
+            margin: 10px 15px;
+        }
+        #font1 {
+            line-height: 43px;
+        }
+        #font2 {
+            line-height: 35px;
+            margin-top: 10px;
+        }
+        .fa {
+            font-size: 40px !important;
+        }
+        .rating {
+            margin-top: 20px;
+            line-height: 41px;
+        }
+    }
