@@ -141,6 +141,13 @@ hr {
 }
 
 
+/* Facebook Icon */
+
+.fa-facebook-square {
+    font-size: 27px;
+}
+
+
 /* Footer */
 
 footer {
@@ -153,7 +160,7 @@ footer {
     height: 80px;
     background-color: #5acf5a;
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 @media only screen and (max-width: 768px) {
