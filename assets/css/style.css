@@ -47,11 +47,6 @@
     position: relative;
 }
 
-
-/* .navbar-collapse {
-    padding-bottom: 10px;
-} */
-
 p {
     margin: 10px 50px;
 }
@@ -95,7 +90,7 @@ ul {
 }
 
 
-/* Bod for the icons info */
+/* Bold for the icons info */
 
 .bold {
     font-weight: bold;
@@ -122,12 +117,15 @@ hr {
     height: 10px;
 }
 
-.checked {
-    color: orange;
-}
-
 .center {
     text-align: center;
+}
+
+
+/* Ratings */
+
+.checked {
+    color: orange;
 }
 
 .fa {
@@ -151,9 +149,7 @@ hr {
 /* Footer */
 
 footer {
-    /* position: fixed; */
-    /* left: 0;
-    bottom: 0; */
+    font-family: 'Racing Sans One', cursive;
     margin-top: 20px;
     padding-top: 25px;
     width: 100%;
@@ -161,6 +157,7 @@ footer {
     background-color: #5acf5a;
     text-align: center;
     font-size: 14px;
+    font-weight: 600;
 }
 
 @media only screen and (max-width: 768px) {
