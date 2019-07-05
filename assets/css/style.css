@@ -180,4 +180,7 @@ footer {
         background-position: top center;
         position: relative;
     }
+    p {
+        margin: 10px 15px;
+    }
 }
