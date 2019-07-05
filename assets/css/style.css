@@ -81,7 +81,7 @@ ul {
     text-align: center;
 }
 
-.col-sm {
+.col-md {
     text-align: center;
 }
 
@@ -154,6 +154,12 @@ footer {
     background-color: #5acf5a;
     text-align: center;
     font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+    .icons {
+        width: 150px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
