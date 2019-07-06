@@ -126,10 +126,20 @@
         font-weight: 600;
         font-family: 'Kanit', sans-serif;
     }
+    
+    .goodman {
+        height: 14em;
+    }
     /* Facebook Icon */
     
     .fa-facebook-square {
         font-size: 27px;
+    }
+    
+    .serve {
+        font-family: 'Kanit', sans-serif;
+        font-size: 30px;
+        text-align: center;
     }
     /* Footer */
     
@@ -191,5 +201,9 @@
         .rating {
             margin-top: 20px;
             line-height: 41px;
+            line-height: 41px;
+        }
+        .goodman {
+            height: 7em;
         }
     }
