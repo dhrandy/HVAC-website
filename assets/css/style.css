@@ -35,6 +35,10 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
+    .navbar-nav {
+        margin-bottom: unset;
+    }
     
     .fixed-top {
         position: relative;
